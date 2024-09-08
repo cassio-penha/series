@@ -1,4 +1,4 @@
-## Top Séries: Seu guia para as melhores séries! 
+## Top Séries: Seu guia para as melhores séries! - Imersão Dev com Google Gemini
 
 **O que é?**
 
