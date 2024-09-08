@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="src/icon.png" type="image/x-icon">
+    <title>Top Séries</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+    </style>
+<body class="container">
+    <header>
+        <h1>Dicas para Top Séries</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome da série" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" 
+        id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Top Séries. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: cassiop@topseries.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
